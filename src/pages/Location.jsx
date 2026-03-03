@@ -7,7 +7,7 @@ export default function Location() {
                         聯絡與交通<span className="text-gradient">資訊</span>
                     </h1>
                     <p className="text-xl text-secondary-600 dark:text-secondary-400 max-w-2xl mx-auto">
-                        歡迎來訪 KS Lab
+                        歡迎來訪我們的實驗室
                     </p>
                 </header>
 
@@ -23,7 +23,7 @@ export default function Location() {
                                 allowFullScreen=""
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
-                                title="KS Lab Location"
+                                title="Lab Location"
                             ></iframe>
                         </div>
                     </div>

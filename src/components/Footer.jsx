@@ -12,9 +12,9 @@ export default function Footer() {
                         <Link to="/" className="flex items-center gap-2 text-2xl font-bold font-display text-white">
                             <img
                                 src={`${import.meta.env.BASE_URL}icon.svg`}
-                                alt="KS Lab Logo"
+                                alt="Lab Logo"
                                 className="w-8 h-8 object-contain"
-                            /> AIKS Lab
+                            /> Your Lab
                         </Link>
                         <p className="text-secondary-400 leading-relaxed max-w-xs">
                             致力於探索人工智慧的無限可能，

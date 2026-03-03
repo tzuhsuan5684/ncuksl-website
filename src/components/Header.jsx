@@ -35,11 +35,11 @@ export default function Header() {
                 <Link to="/" className="text-2xl font-serif font-bold text-primary-900 dark:text-gray-100 flex items-center gap-3 group">
                     <img
                         src={`${import.meta.env.BASE_URL}icon.svg`}
-                        alt="KS Lab Logo"
+                        alt="Lab Logo"
                         className="w-10 h-10 object-contain transform transition-transform duration-300 group-hover:scale-110"
                     />
                     <span>
-                        AIKS Lab
+                        Your Lab
                     </span>
                 </Link>
 

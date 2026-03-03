@@ -43,8 +43,8 @@ export default function Home() {
                         Innovation · Intelligence · Impact
                     </span>
                     <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 animate-fade-in-down text-white tracking-tight leading-tight">
-                        人工智慧與<br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">自然語言處理</span>實驗室
+                        Your <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">Lab </span>Name
                     </h1>
                     <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 animate-fade-in-up mb-12 leading-relaxed font-light">
                         致力於探索人工智慧的前沿，透過機器學習與自然語言處理技術，
