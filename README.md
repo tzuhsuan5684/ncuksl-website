@@ -1,124 +1,43 @@
-# Lab Website Template
+# 學術研究室網站模板 (Lab Website Template)
 
-A modern, responsive academic lab website template built with **React + Vite + Tailwind CSS**.
+專為大學研究室開發的現代化、響應式網站模板。採用 **React + Vite + Tailwind CSS** 構建，透過分離前端介面與資料層，實現無痛維護的內容更新。
 
-🔗 **Live Demo:** _Deploy your own and add your URL here_
+## 🔗 線上實體網站 
 
----
-
-## ✨ Features
-
-- **Modern UI**: Clean, dark-mode-ready design with responsive layout
-- **Data-driven**: Easily update content through local JSON files or Google Sheets (no code changes needed)
-- **Multi-page**: Home, News, Projects, Research Areas, Systems, Team, Publications, Location
-- **Fast**: Built on Vite for lightning-fast development and optimized production builds
+本專案已實際應用，線上穩定運行中：
+> 🌐 **[點此查看正式上線網站](https://www.ncuksl.com/)** 
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 開發動機與解決方案
 
-| Layer | Technology |
-|---|---|
-| Framework | [React.js](https://react.dev/) + [Vite](https://vitejs.dev/) |
-| Routing | React Router v6 |
-| Styling | [Tailwind CSS](https://tailwindcss.com/) |
-| Data Source | Google Sheets CSV (dynamic) + JSON (static fallback) |
-| Icons | Font Awesome (CDN) |
+學術網站最大的痛點是「常態性的內容維護」。為了讓不熟悉程式碼的教授與學生能輕鬆更新論文、最新消息與成員名單，本專案實作了**混合資料架構**：
+
+- **零程式碼更新**：除支援靜態 `JSON` 讀取外，也對接 **Google Sheets (CSV格式)**。使用者只需修改 Google 表單，網站即可自動同步最新資料。
 
 ---
 
-## 🚀 Getting Started
+## ✨ 核心技術亮點
 
-### 1. Clone and install
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-npm install
-npm run dev
-```
-
-### 2. Customize your content
-
-All content is stored in `public/data/`. Edit these JSON files to fill in your lab's information:
-
-| File | Content |
-|---|---|
-| `team.json` | Professor, students, postdocs, alumni |
-| `news.json` | Announcements and news items |
-| `activities.json` | Upcoming events and activities |
-| `projects.json` | Research projects and grants |
-| `publications.json` | Academic publications |
-
-### 3. Add your photos
-
-Place your images in `public/assets/images/`:
-- `team/` — headshots (referenced by `image` field in `team.json`)
-- `events/` — lab photos shown on the home page gallery
-
-Update `public/logo.png` and `public/favicon.png` with your lab logo.
+- **前端框架**：`React 19` + `Vite` 開發，支援快速 HMR 開發與優化建置。
+- **元件化設計與路由**：使用 `React Router v6` 建立 SPA 架構，涵蓋首頁、團隊、專案、論文等模組化頁面。
+- **效能優化**：利用 `useMemo` 等 Hook 優化論文年份篩選與名單渲染效能，避免無效重繪。
+- **純前端功能**：客製化純前端功能，例如直接轉換論文陣列並匯出 `.csv` 檔案。
+- **現代化 UI/UX**：導入 `Tailwind CSS` 實作深色模式與自適應 (RWD) 佈局，大幅提升傳統學術網站的使用體驗。
 
 ---
 
-## 📊 Google Sheets Integration (Optional)
+## 🚀 本地開發與使用
 
-For easy non-technical updates, you can connect Google Sheets as a live data source:
-
-1. Create a Google Sheet with the columns matching the JSON structure
-2. Go to **File → Share → Publish to web** → choose the tab → select **CSV**
-3. Copy the generated URL
-4. Paste it into `src/config/sheetsConfig.js` for the corresponding data key
-
-The app will automatically fetch from Google Sheets when a URL is provided, and fall back to the local JSON file if not.
-
----
-
-## 📍 Location Page
-
-Update the Google Maps embed URL in `src/pages/Location.jsx`:
-
-```jsx
-src="https://www.google.com/maps/embed?YOUR_EMBED_URL_HERE"
-```
-
-Get your embed URL from [Google Maps](https://maps.google.com) → Share → Embed a map → Copy HTML → extract the `src` URL.
-
----
-
-## 🚢 Deployment
-
-### GitHub Pages
-
-1. Update `vite.config.js` → set `base` to your repo name (e.g., `'/your-repo/'`)
-2. Build: `npm run build`
-3. Deploy the `dist/` folder to GitHub Pages
-
-### GitLab CI/CD
-
-A `.gitlab-ci.yml.example` file is included. Rename it to `.gitlab-ci.yml` and it will automatically build and deploy to GitLab Pages on every push to `main`.
-
----
-
-## 📁 Project Structure
-
-```
-├── public/
-│   ├── data/           ← JSON data files (edit these!)
-│   ├── assets/
-│   │   └── images/     ← Photos (team/, events/)
-│   ├── logo.png        ← Your lab logo
-│   └── favicon.png     ← Browser tab icon
-├── src/
-│   ├── components/     ← Header, Footer, Layout, BackToTop
-│   ├── pages/          ← One file per page
-│   ├── config/
-│   │   └── sheetsConfig.js  ← Google Sheets URLs
-│   └── utils/          ← Data fetching helpers
-└── index.html          ← Update title and meta tags here
-```
-
----
-
-## 📄 License
-
-MIT License — feel free to use and adapt for your own lab.
+1. **安裝環境與啟動開發伺服器**：
+   ```bash
+   npm install
+   npm run dev
+   ```
+2. **客製化資料**：
+   修改 `public/data/` 內的 JSON 檔案，或於 `src/config/sheetsConfig.js` 填入您的 Google Sheets URL。
+3. **建置與部屬**：
+   ```bash
+   npm run build
+   ```
+   支援輕鬆部屬至 GitHub Pages 或 GitLab CI/CD（已內建 YAML 範例）。
