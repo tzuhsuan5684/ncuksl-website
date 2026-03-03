@@ -262,7 +262,7 @@ export default function Home() {
                             </Link>
                         </div>
                         <div className="lg:w-1/2">
-                            <img src={`${import.meta.env.BASE_URL}assets/images/events/Ogata1.jpg`} alt="實驗室照片" className="rounded shadow-none border border-gray-200 dark:border-primary-800 w-full h-auto" />
+                            <img src="https://placehold.co/800x600?text=Laboratory+Image" alt="實驗室照片" className="rounded shadow-none border border-gray-200 dark:border-primary-800 w-full h-auto" />
                         </div>
                     </div>
                 </div>
@@ -310,7 +310,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-1 h-[600px] md:h-[500px]">
                         {/* Large items */}
                         <div className="col-span-1 md:col-span-2 md:row-span-2 relative group overflow-hidden bg-gray-200">
-                            <img src={`${import.meta.env.BASE_URL}assets/images/events/Ogata2.jpg`} alt="Lab Meeting" className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
+                            <img src="https://placehold.co/800x800?text=Academic+Exchange" alt="Lab Meeting" className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
                             <div className="absolute inset-0 bg-primary-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                 <span className="text-white font-bold text-xl tracking-wider">Academic Exchange</span>
                             </div>
@@ -318,10 +318,10 @@ export default function Home() {
 
                         {/* Smaller items */}
                         {[
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/talk.jpg`, label: '實驗室研討', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/M1.jpg`, label: '合照', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/conference.jpg`, label: '研討會發表', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/eat.jpg`, label: '聚餐', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Discussion', label: '實驗室研討', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Group+Photo', label: '合照', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Conference', label: '研討會發表', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Gathering', label: '聚餐', span: 'md:col-span-1' },
                         ].map((photo, index) => (
                             <div key={index} className={`relative group overflow-hidden bg-gray-200 ${photo.span}`}>
                                 <img src={photo.src} alt={photo.label} className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
