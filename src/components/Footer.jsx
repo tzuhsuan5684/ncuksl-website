@@ -11,10 +11,10 @@ export default function Footer() {
                     <div className="space-y-4">
                         <Link to="/" className="flex items-center gap-2 text-2xl font-bold font-display text-white">
                             <img
-                                src={`${import.meta.env.BASE_URL}logo.png`}
-                                alt="KS Lab Logo"
+                                src={`${import.meta.env.BASE_URL}icon.svg`}
+                                alt="Lab Logo"
                                 className="w-8 h-8 object-contain"
-                            /> AIKS Lab
+                            /> Your Lab
                         </Link>
                         <p className="text-secondary-400 leading-relaxed max-w-xs">
                             致力於探索人工智慧的無限可能，
@@ -52,7 +52,7 @@ export default function Footer() {
                                 </div>
                                 <div>
                                     <span className="block text-sm font-semibold text-white">實驗室位置</span>
-                                    <span className="text-sm">桃園市中壢區中大路300號<br />國立中央大學 工程五館</span>
+                                    <span className="text-sm">Your University Address<br />Your Building / Room</span>
                                 </div>
                             </li>
                             <li className="flex items-start gap-3">
@@ -61,7 +61,7 @@ export default function Footer() {
                                 </div>
                                 <div>
                                     <span className="block text-sm font-semibold text-white">電話</span>
-                                    <span className="text-sm">03-422-7151 分機 35353、35356</span>
+                                    <span className="text-sm">+00-0000-0000 ext. XXXXX</span>
                                 </div>
                             </li>
                         </ul>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
 
                 <div className="border-t border-secondary-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-secondary-500">
-                    <p>&copy; {currentYear} KS Lab. All Rights Reserved.</p>
+                    <p>&copy; {currentYear} Your Lab Name. All Rights Reserved.</p>
 
                 </div>
             </div>

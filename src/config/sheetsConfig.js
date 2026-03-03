@@ -1,25 +1,32 @@
 // Google Sheets CSV URLs Configuration
-// 將您的 Google Sheet 發布為 CSV 後，將連結貼在這裡
+// ─────────────────────────────────────────────────────────────────────────────
+// HOW TO SET UP:
+//   1. Open your Google Sheet → File → Share → Publish to web
+//   2. Choose the sheet tab → select "Comma-separated values (.csv)"
+//   3. Click "Publish" and copy the generated URL
+//   4. Paste the URL as the value for the corresponding key below
+//   5. Leave a key as '' to fall back to the local JSON file in public/data/
+// ─────────────────────────────────────────────────────────────────────────────
 
 export const SHEET_URLS = {
-    // 最新公告 (News)
-    // 欄位: date, title, summary, category, link, pinned
-    news: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQxiNzg3J-sm0ND2Vh4LiHTaTQqaQ_TQkvs2Do-z3BMbpBCtnetP3KpKq2bkiqjZ7yFcSbAJRcnJwGH/pub?gid=0&single=true&output=csv',
+    // Latest Announcements (News)
+    // Columns: date, title, summary, category, link, pinned
+    news: '',
 
-    // 近期活動 (Activities)
-    // 欄位: date, title, description, link   
-    activities: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQuQ2UyAbaHJd9tJdESngrrG44BNA5gZNIZp8rAIf8zRck_A9q4kveoYZR5KqUujthttb-lIPXkJ1vG/pub?gid=0&single=true&output=csv',
+    // Upcoming Activities
+    // Columns: date, title, description, link
+    activities: '',
 
-    // 研究計畫 (Projects)
-    // 欄位: id, title, agency, duration, category
+    // Research Projects
+    // Columns: id, title, agency, duration, category
     projects: '',
 
-    // 研究成果/論文 (Publications)
-    // 欄位: year, title, authors, venue, link, type
-    publications: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTYhc6fP7bLkqm3Nw8tullMugXpeC-R1K9PGDe-QCdzUO4X2KL9Vg1NTLBNgJQsmoNdHM7CdttsxMXS/pub?gid=0&single=true&output=csv',
+    // Publications
+    // Columns: year, category, title, authors, source, link
+    publications: '',
 
-    // 團隊成員 (Team) - 較複雜，建議保持使用 JSON
-    // 如需使用 Google Sheets，需要多個工作表
+    // Team Members — complex structure, recommended to keep using JSON
+    // If using Google Sheets, multiple sheets are required
     team: ''
 };
 

@@ -43,8 +43,8 @@ export default function Home() {
                         Innovation · Intelligence · Impact
                     </span>
                     <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 animate-fade-in-down text-white tracking-tight leading-tight">
-                        人工智慧與<br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">知識系統</span>實驗室
+                        Your <br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">Lab </span>Name
                     </h1>
                     <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 animate-fade-in-up mb-12 leading-relaxed font-light">
                         致力於探索人工智慧的前沿，透過機器學習與自然語言處理技術，
@@ -167,8 +167,12 @@ export default function Home() {
                             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-20">
                                 {/* Photo + Contact */}
                                 <div className="flex-shrink-0 flex flex-col items-center gap-6 lg:w-1/3">
-                                    <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative">
-                                        <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className="w-full h-full object-cover object-top" />
+                                    <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative bg-secondary-100 dark:bg-secondary-700 flex items-center justify-center shadow-md">
+                                        {teamData.professor.image ? (
+                                            <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className={`w-full h-full object-cover ${teamData.professor.img_position ? 'object-' + teamData.professor.img_position : 'object-top'}`} />
+                                        ) : (
+                                            <i className="fas fa-user text-8xl text-secondary-300 dark:text-secondary-500"></i>
+                                        )}
                                     </div>
                                     <div className="space-y-3 text-secondary-600 dark:text-secondary-400 text-sm text-center">
                                         <p className="flex items-center justify-center gap-2">
@@ -258,7 +262,7 @@ export default function Home() {
                             </Link>
                         </div>
                         <div className="lg:w-1/2">
-                            <img src={`${import.meta.env.BASE_URL}assets/images/events/Ogata1.jpg`} alt="實驗室照片" className="rounded shadow-none border border-gray-200 dark:border-primary-800 w-full h-auto" />
+                            <img src="https://placehold.co/800x600?text=Laboratory+Image" alt="實驗室照片" className="rounded shadow-none border border-gray-200 dark:border-primary-800 w-full h-auto" />
                         </div>
                     </div>
                 </div>
@@ -306,18 +310,18 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-1 h-[600px] md:h-[500px]">
                         {/* Large items */}
                         <div className="col-span-1 md:col-span-2 md:row-span-2 relative group overflow-hidden bg-gray-200">
-                            <img src={`${import.meta.env.BASE_URL}assets/images/events/Ogata2.jpg`} alt="Lab Meeting" className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
+                            <img src="https://placehold.co/800x800?text=Academic+Exchange" alt="Lab Meeting" className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
                             <div className="absolute inset-0 bg-primary-900/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span className="text-white font-bold text-xl tracking-wider">京大 Ogata 老師來訪</span>
+                                <span className="text-white font-bold text-xl tracking-wider">Academic Exchange</span>
                             </div>
                         </div>
 
                         {/* Smaller items */}
                         {[
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/talk.jpg`, label: '實驗室研討', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/M1.jpg`, label: '合照', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/conference.jpg`, label: '研討會發表', span: 'md:col-span-1' },
-                            { src: `${import.meta.env.BASE_URL}assets/images/events/eat.jpg`, label: '聚餐', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Discussion', label: '實驗室研討', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Group+Photo', label: '合照', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Conference', label: '研討會發表', span: 'md:col-span-1' },
+                            { src: 'https://placehold.co/600x400?text=Gathering', label: '聚餐', span: 'md:col-span-1' },
                         ].map((photo, index) => (
                             <div key={index} className={`relative group overflow-hidden bg-gray-200 ${photo.span}`}>
                                 <img src={photo.src} alt={photo.label} className="w-full h-full object-cover transition-transform duration-700 group-hover:grayscale-0" />
