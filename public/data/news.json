@@ -1,53 +1,9 @@
 [
     {
-        "date": "2025-10-20",
-        "title": "🎉 Our Professor Received the Academic Excellence Award",
-        "summary": "The Academic Excellence Award is presented to researchers who have made outstanding contributions to their field and have been recognized by the academic community.",
-        "category": "榮譽",
-        "link": "",
-        "pinned": true
-    },
-    {
-        "date": "2025-07-24",
-        "title": "🏆 Our Professor Received the Outstanding Teaching Award",
-        "summary": "This year, the selection committee reviewed candidates from universities nationwide. Our professor was among the outstanding recipients recognized for their exceptional teaching contributions.",
-        "category": "榮譽",
-        "link": "",
-        "pinned": true
-    },
-    {
-        "date": "2025-11-18",
-        "title": "「2025 International Conference on AI and Sustainable Society」Successfully Concluded",
-        "summary": "The 2025 International Conference on AI and Sustainable Society was held on November 13–14, 2025 and concluded successfully.",
-        "category": "學術",
-        "link": ""
-    },
-    {
-        "date": "2025-11-01",
-        "title": "Lab Admission Open",
-        "summary": "We welcome students interested in joining our research team to explore cutting-edge fields of AI and educational technology!",
-        "category": "招生",
-        "link": ""
-    },
-    {
-        "date": "2025-10-03",
-        "title": "🎊 Our Professor Received the Distinguished IT Professional Award",
-        "summary": "This award aims to recognize individuals who have made outstanding contributions to the IT industry, encouraging more talented professionals to actively engage in technological research and innovation.",
-        "category": "榮譽",
-        "link": ""
-    },
-    {
         "date": "2025-07-01",
         "title": "Welcome New Graduate Students (Academic Year 114)",
         "summary": "Welcome to new master's students joining our lab family. We look forward to sparking great research ideas together.",
         "category": "招生",
-        "link": ""
-    },
-    {
-        "date": "2024-11-01",
-        "title": "🎉 Our Professor Elected as Fellow of the Engineering Society",
-        "summary": "Congratulations to our professor on this outstanding achievement!",
-        "category": "榮譽",
         "link": ""
     },
     {

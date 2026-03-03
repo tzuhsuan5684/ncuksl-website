@@ -98,55 +98,6 @@
         "email": "master.a@example.edu",
         "office": "Engineering Building, Room B321-1",
         "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student B",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.b@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student C",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.c@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student D",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.d@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student E",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.e@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student F",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.f@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student G",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.g@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student H",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.h@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
       }
     ],
     "first_year": [
@@ -154,49 +105,6 @@
         "name": "Master Student I",
         "image": "assets/images/team/placeholder.jpg",
         "email": "master.i@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student J",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.j@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student K",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.k@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX",
-        "img_position": "bottom"
-      },
-      {
-        "name": "Master Student L",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.l@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student M",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.m@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student N",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.n@example.edu",
-        "office": "Engineering Building, Room B321-1",
-        "ext": "XXXXX"
-      },
-      {
-        "name": "Master Student O",
-        "image": "assets/images/team/placeholder.jpg",
-        "email": "master.o@example.edu",
         "office": "Engineering Building, Room B321-1",
         "ext": "XXXXX"
       }
@@ -210,36 +118,6 @@
         "company": "Example Tech Company",
         "email": "alumni.a@example.com",
         "job_title": "Managing Director"
-      },
-      {
-        "name": "PhD Alumni B",
-        "company": "Example University, Graduate Institute of Education",
-        "email": "alumni.b@example.edu",
-        "job_title": "Associate Professor"
-      },
-      {
-        "name": "PhD Alumni C",
-        "company": "Example University, Department of Communication",
-        "email": "alumni.c@example.edu",
-        "job_title": "Professor"
-      },
-      {
-        "name": "PhD Alumni D",
-        "company": "Example University, Department of Computer Science",
-        "email": "alumni.d@example.edu",
-        "job_title": "Associate Professor"
-      },
-      {
-        "name": "PhD Alumni E",
-        "company": "Example University of Technology, Department of Finance",
-        "email": "alumni.e@example.edu",
-        "job_title": "Associate Professor"
-      },
-      {
-        "name": "PhD Alumni F",
-        "company": "Example University",
-        "email": "alumni.f@example.edu",
-        "job_title": "Assistant Professor"
       }
     ],
     "master": [
@@ -256,86 +134,6 @@
       {
         "name": "Master Alumni C",
         "company": "IBM",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni D",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni E",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni F",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni G",
-        "company": "Amazon Web Services",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni H",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni I",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni J",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni K",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni L",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni M",
-        "company": "Advantech",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni N",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni O",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni P",
-        "company": "TSMC",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni Q",
-        "company": "Novatek Microelectronics",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni R",
-        "company": "Phison Electronics",
-        "email": ""
-      },
-      {
-        "name": "Master Alumni S",
-        "company": "TSMC",
         "email": ""
       }
     ]
