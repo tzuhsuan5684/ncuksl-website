@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="space-y-4">
                         <Link to="/" className="flex items-center gap-2 text-2xl font-bold font-display text-white">
                             <img
-                                src={`${import.meta.env.BASE_URL}logo.png`}
+                                src={`${import.meta.env.BASE_URL}icon.svg`}
                                 alt="KS Lab Logo"
                                 className="w-8 h-8 object-contain"
                             /> AIKS Lab

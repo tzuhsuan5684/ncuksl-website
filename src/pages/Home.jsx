@@ -44,7 +44,7 @@ export default function Home() {
                     </span>
                     <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 animate-fade-in-down text-white tracking-tight leading-tight">
                         人工智慧與<br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">知識系統</span>實驗室
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-200 to-accent-300">自然語言處理</span>實驗室
                     </h1>
                     <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300 animate-fade-in-up mb-12 leading-relaxed font-light">
                         致力於探索人工智慧的前沿，透過機器學習與自然語言處理技術，
@@ -167,15 +167,9 @@ export default function Home() {
                             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-20">
                                 {/* Photo + Contact */}
                                 <div className="flex-shrink-0 flex flex-col items-center gap-6 lg:w-1/3">
-                                    {teamData.professor.image ? (
-                                        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative">
-                                            <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className="w-full h-full object-cover object-top" />
-                                        </div>
-                                    ) : (
-                                        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full mx-auto relative bg-secondary-100 dark:bg-primary-800 flex items-center justify-center border border-secondary-200 dark:border-primary-700">
-                                            <i className="fas fa-user text-6xl text-secondary-400 dark:text-secondary-500"></i>
-                                        </div>
-                                    )}
+                                    <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative">
+                                        <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className="w-full h-full object-cover object-top" />
+                                    </div>
                                     <div className="space-y-3 text-secondary-600 dark:text-secondary-400 text-sm text-center">
                                         <p className="flex items-center justify-center gap-2">
                                             <i className="fas fa-envelope text-primary-500 w-4"></i>

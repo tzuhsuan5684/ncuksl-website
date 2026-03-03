@@ -34,7 +34,7 @@ export default function Header() {
             <nav className="container-custom flex justify-between items-center">
                 <Link to="/" className="text-2xl font-serif font-bold text-primary-900 dark:text-gray-100 flex items-center gap-3 group">
                     <img
-                        src={`${import.meta.env.BASE_URL}logo.png`}
+                        src={`${import.meta.env.BASE_URL}icon.svg`}
                         alt="KS Lab Logo"
                         className="w-10 h-10 object-contain transform transition-transform duration-300 group-hover:scale-110"
                     />
