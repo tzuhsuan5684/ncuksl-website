@@ -1,7 +1,7 @@
 {
   "professor": {
     "name": "Prof. Jane Doe",
-    "image": "assets/images/team/placeholder.jpg",
+    "image": "",
     "titles": [
       {
         "icon": "fas fa-user-tie",
@@ -43,7 +43,7 @@
   "postdocs": [
     {
       "name": "Postdoc A",
-      "image": "assets/images/team/placeholder.jpg",
+      "image": "",
       "email": "postdoc.a@example.edu",
       "office": "Engineering Building, Room B320",
       "ext": "XXXXX"
@@ -59,14 +59,14 @@
   "assistants": [
     {
       "name": "Research Assistant A",
-      "image": "assets/images/team/placeholder.jpg",
+      "image": "",
       "email": "assistant.a@example.edu",
       "office": "Engineering Building, Room B320",
       "ext": "XXXXX"
     },
     {
       "name": "Research Assistant B",
-      "image": "assets/images/team/placeholder.jpg",
+      "image": "",
       "email": "assistant.b@example.edu",
       "office": "Engineering Building, Room B320",
       "ext": "XXXXX",
@@ -76,14 +76,14 @@
   "phd_students": [
     {
       "name": "PhD Student A",
-      "image": "assets/images/team/placeholder.jpg",
+      "image": "",
       "email": "phd.a@example.edu",
       "office": "Engineering Building, Room B321-1",
       "ext": "XXXXX"
     },
     {
       "name": "PhD Student B",
-      "image": "assets/images/team/placeholder.jpg",
+      "image": "",
       "email": "phd.b@example.edu",
       "office": "Engineering Building, Room B321-1",
       "ext": "XXXXX",
@@ -94,7 +94,7 @@
     "second_year": [
       {
         "name": "Master Student A",
-        "image": "assets/images/team/placeholder.jpg",
+        "image": "",
         "email": "master.a@example.edu",
         "office": "Engineering Building, Room B321-1",
         "ext": "XXXXX"
@@ -103,7 +103,7 @@
     "first_year": [
       {
         "name": "Master Student I",
-        "image": "assets/images/team/placeholder.jpg",
+        "image": "",
         "email": "master.i@example.edu",
         "office": "Engineering Building, Room B321-1",
         "ext": "XXXXX"

@@ -167,9 +167,15 @@ export default function Home() {
                             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-20">
                                 {/* Photo + Contact */}
                                 <div className="flex-shrink-0 flex flex-col items-center gap-6 lg:w-1/3">
-                                    <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative">
-                                        <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className="w-full h-full object-cover object-top" />
-                                    </div>
+                                    {teamData.professor.image ? (
+                                        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto relative">
+                                            <img src={`${import.meta.env.BASE_URL}${teamData.professor.image}`} alt={teamData.professor.name} className="w-full h-full object-cover object-top" />
+                                        </div>
+                                    ) : (
+                                        <div className="w-56 h-56 md:w-64 md:h-64 rounded-full mx-auto relative bg-secondary-100 dark:bg-primary-800 flex items-center justify-center border border-secondary-200 dark:border-primary-700">
+                                            <i className="fas fa-user text-6xl text-secondary-400 dark:text-secondary-500"></i>
+                                        </div>
+                                    )}
                                     <div className="space-y-3 text-secondary-600 dark:text-secondary-400 text-sm text-center">
                                         <p className="flex items-center justify-center gap-2">
                                             <i className="fas fa-envelope text-primary-500 w-4"></i>
