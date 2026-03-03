@@ -6,18 +6,18 @@ export default function Systems() {
             title: '學習系統',
             items: [
                 {
-                    name: 'BookRoll',
-                    desc: '由日本京都大學 Hiroaki Ogata 教授實驗室團隊所開發的線上電子書閱讀系統，提供學生練習和複習課程內容，老師也能監看學生的學習狀況，並能對學生的狀態進行分析。',
+                    name: 'System Alpha',
+                    desc: '一套線上電子書閱讀系統，提供學生練習和複習課程內容，老師也能監看學生的學習狀況，並能對學生的狀態進行分析。',
                     features: [
                         'Assessment & Review System：提供選擇題、克漏字與簡答題練習',
                         'Grafana：學習日誌視覺化儀表板',
-                        'Book_overview：閱讀狀態與標記紀錄監控',
-                        'Intervention dashboard：個人化改善建議與狀態分析'
+                        'Reading Analytics：閱讀狀態與標記紀錄監控',
+                        'Intervention Dashboard：個人化改善建議與狀態分析'
                     ],
                     icon: 'fa-book-open',
                 },
                 {
-                    name: 'VisCode',
+                    name: 'System Beta',
                     desc: '一套結合 JupyterHub 與系統日誌分析系統 (ELK) 的系統。自動紀錄學習者執行程式碼的細節，並進行視覺化，以便教師即時掌握教學情形。',
                     features: [
                         'Elasticsearch & Logstash：日誌儲存與過濾',
@@ -27,49 +27,7 @@ export default function Systems() {
                     icon: 'fa-code-branch',
                 },
             ],
-        },
-        {
-            category: 'assistant',
-            title: '學習助教系統',
-            items: [
-                {
-                    name: 'PyChatbot',
-                    desc: '課後輔助學習工具，自動抓取學生線上解題環境中的作答紀錄，分析總結學習狀況並給予建議。使用 ChatGPT 輔助教師生成教材。',
-                    features: [
-                        '自動總結評分與程式設計求救',
-                        '作業繳交與點名結果查詢',
-                        '使用 SBERT 技術減輕教師負擔'
-                    ],
-                    icon: 'fa-robot',
-                },
-                {
-                    name: 'PyTutor',
-                    desc: '基於 React.js 和 TypeScript 開發的 Chrome Extension 智慧助教。利用 ChatGPT 生成解題提示和程式碼解釋。',
-                    features: [
-                        '24 小時不間斷程式引導服務',
-                        '提供解題提示與程式碼解釋',
-                        'Flask 後端平台支援'
-                    ],
-                    icon: 'fa-laptop-code',
-                },
-            ],
-        },
-        {
-            category: 'esg',
-            title: 'ESG 分析系統',
-            items: [
-                {
-                    name: 'ALEX',
-                    desc: '使用 BERT 模型提供即時句子標記並產生視覺化圖表。配合 ChatGPT 利用輿情分析找出 ESG 新聞核心話題，並可生成演講稿。',
-                    features: [
-                        'News Summary Generator：ESG 流行詞及議題摘要',
-                        'Cue Card Generator：生成演講提示稿',
-                        '幫助企業即時回應、減少風險'
-                    ],
-                    icon: 'fa-leaf',
-                },
-            ],
-        },
+        }
     ];
 
     return (

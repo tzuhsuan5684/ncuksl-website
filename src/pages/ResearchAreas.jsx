@@ -68,55 +68,6 @@ export default function ResearchAreas() {
                             </div>
                         </div>
                     </section>
-
-                    {/* Section 3: Education and Learning */}
-                    <section className="research-section relative">
-                        <div className="flex flex-col md:flex-row items-start gap-12">
-                            <div className="md:w-1/3 sticky top-24">
-                                <div className="w-20 h-20 rounded-md bg-orange-100 dark:bg-orange-900/30 flex items-center justify-center text-orange-600 dark:text-orange-400 mb-6 shadow-sm">
-                                    <i className="fas fa-book-reader text-4xl"></i>
-                                </div>
-                                <h2 className="text-3xl font-bold text-secondary-900 dark:text-white mb-4">教育和學習</h2>
-                                <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed">
-                                    專注於智慧教育領域，利用科技提升學習成效，實現個人化與適性化的學習體驗。
-                                </p>
-                            </div>
-                            <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div className="glass-card p-8 rounded-md border-l-4 border-l-orange-500 md:col-span-2">
-                                    <h3 className="font-bold text-xl text-secondary-900 dark:text-white mb-3">學習分析</h3>
-                                    <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed text-sm">
-                                        分析學習者的數據，以理解和優化學習過程及其環境，並提供即時反饋與干預機制。
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    {/* Section 4: Application Fields */}
-                    <section className="research-section relative">
-                        <div className="flex flex-col md:flex-row-reverse items-start gap-12">
-                            <div className="md:w-1/3 sticky top-24">
-                                <div className="w-20 h-20 rounded-md bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center text-cyan-600 dark:text-cyan-400 mb-6 shadow-sm">
-                                    <i className="fas fa-microscope text-4xl"></i>
-                                </div>
-                                <h2 className="text-3xl font-bold text-secondary-900 dark:text-white mb-4">應用場域</h2>
-                                <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed">
-                                    將研究成果應用於實際場域，解決產業與社會面臨的挑戰，創造實際影響力。
-                                </p>
-                            </div>
-                            <div className="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
-                                {[
-                                    { title: '教育領域', desc: '開發精準教育與個人化學習系統，提升學習成效。' },
-                                    { title: 'ESG 領域', desc: '運用AI分析企業永續報告，推動永續發展目標。' },
-                                ].map((item, index) => (
-                                    <div key={index} className="glass-card p-8 rounded-md border-l-4 border-l-cyan-500">
-                                        <h3 className="font-bold text-xl text-secondary-900 dark:text-white mb-3">{item.title}</h3>
-                                        <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed text-sm">{item.desc}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </div>
         </div>
