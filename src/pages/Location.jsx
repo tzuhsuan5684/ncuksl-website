@@ -16,7 +16,7 @@ export default function Location() {
                     <div className="glass-panel max-w-6xl mx-auto">
                         <div className="aspect-video rounded-none overflow-hidden border border-secondary-200 dark:border-secondary-700">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.9662644892847!2d121.19276731500658!3d24.968049484011647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681e5a1e8b1e8b%3A0x3f8e8e8e8e8e8e8e!2z5ZyL56uL5Lit5aSu5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1234567890123!5m2!1szh-TW!2stw"
+                                src="https://www.google.com/maps/embed?YOUR_EMBED_URL_HERE"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
@@ -39,11 +39,11 @@ export default function Location() {
                             </h2>
                             <div className="flex-grow flex flex-col justify-center py-6">
                                 <p className="text-secondary-800 dark:text-white font-bold text-lg mb-4">
-                                    國立中央大學
+                                    Your University Name
                                 </p>
                                 <div className="space-y-1 text-secondary-600 dark:text-secondary-400 leading-relaxed text-base">
-                                    <p>桃園市中壢區中大路300號</p>
-                                    <p>國立中央大學 工程五館 B320 與 B321-1室</p>
+                                    <p>Your University Street Address</p>
+                                    <p>Your Building, Room XXX</p>
                                 </div>
                             </div>
                         </div>
@@ -61,8 +61,8 @@ export default function Location() {
                                     電話
                                 </p>
                                 <div className="space-y-1 text-secondary-600 dark:text-secondary-400 leading-relaxed text-base">
-                                    <p>03-422-7151</p>
-                                    <p>分機 35353、35356</p>
+                                    <p>+00-0000-0000</p>
+                                    <p>ext. XXXXX</p>
                                 </div>
                             </div>
                         </div>

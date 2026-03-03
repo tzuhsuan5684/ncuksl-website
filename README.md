@@ -1,26 +1,124 @@
-# KSLab 實驗室網站
+# Lab Website Template
 
-🔗 **Live Preview 預覽連結：** [https://www.ncuksl.com/](https://www.ncuksl.com/)
+A modern, responsive academic lab website template built with **React + Vite + Tailwind CSS**.
+
+🔗 **Live Demo:** _Deploy your own and add your URL here_
 
 ---
 
-## 🎯 開發背景
-本網站的開發宗旨在於現代化「人工智慧與知識系統實驗室 (AIKS Lab)」的數位形象與資訊管理流程。解決了舊有網站維護成本高、資訊更新不易的問題。
-- **簡化內容更新流程**：透過整合 Google Sheets 作為輕量級的 CMS (內容管理系統)，讓不熟悉程式碼的實驗室成員也能輕鬆更新最新公告、近期活動與研究成果。
-- **提升視覺與使用者體驗**：導入現代化的前端框架與響應式設計，確保在桌面與行動裝置上都能提供一致、美觀且具備互動性的瀏覽體驗，更好地展示實驗室的專業研究與團隊陣容。
+## ✨ Features
 
-## 🛠️ 技術棧 (Tech Stack)
-本專案採用現代前端主流技術構建，確保效能與後續可維護性：
-- **核心框架**: [React.js](https://react.dev/) + [Vite](https://vitejs.dev/) (提供極速的開發體驗與建置速度)
-- **路由管理**: React Router v6
-- **樣式設計**: [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS 框架，實現快速且客製化的響應式排版設計)
-- **資料來源**: Google Sheets CSV 串接 (動態資料) + JSON (靜態資料)
-- **圖示庫**: Font Awesome (CDN)
-- **CI/CD 自動化佈署**: GitLab CI/CD (自動編譯並佈署至 GitLab Pages / 自訂網域)
+- **Modern UI**: Clean, dark-mode-ready design with responsive layout
+- **Data-driven**: Easily update content through local JSON files or Google Sheets (no code changes needed)
+- **Multi-page**: Home, News, Projects, Research Areas, Systems, Team, Publications, Location
+- **Fast**: Built on Vite for lightning-fast development and optimized production builds
 
-## 🧑‍💻 專案開發與貢獻
-本網站從初期規劃、視覺設計到最終的系統實作與佈署，均由我負責獨立主導與完成。在專案開發過程中，涵蓋了以下核心工作項目：
-- **架構規劃與前端建置**: 導入 Vite + React 的現代化前端框架，建立具備良好擴充性的專案基底，並結合 Tailwind CSS 進行樣式管理。
-- **介面設計與使用者體驗 (UI/UX)**: 重新定調實驗室的視覺風格，實現全站的響應式設計 (RWD)，確保在各類裝置上皆有流暢的瀏覽與互動體驗。
-- **資料流管線設計**: 考量到實驗室非工程背景成員的維護需求，主導設計了以 Google Sheets 為主、本地端 JSON 為輔的雙軌資料更新機制，大幅降低後續維護門檻 (`fetchData.js`)。
-- **持續整合與佈署 (CI/CD)**: 撰寫與設定 `.gitlab-ci.yml` 腳本，透過 GitLab Pages 完成自動化圖文編譯與上線，並順利配置專屬網域 (www.ncuksl.com)。
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | [React.js](https://react.dev/) + [Vite](https://vitejs.dev/) |
+| Routing | React Router v6 |
+| Styling | [Tailwind CSS](https://tailwindcss.com/) |
+| Data Source | Google Sheets CSV (dynamic) + JSON (static fallback) |
+| Icons | Font Awesome (CDN) |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm install
+npm run dev
+```
+
+### 2. Customize your content
+
+All content is stored in `public/data/`. Edit these JSON files to fill in your lab's information:
+
+| File | Content |
+|---|---|
+| `team.json` | Professor, students, postdocs, alumni |
+| `news.json` | Announcements and news items |
+| `activities.json` | Upcoming events and activities |
+| `projects.json` | Research projects and grants |
+| `publications.json` | Academic publications |
+
+### 3. Add your photos
+
+Place your images in `public/assets/images/`:
+- `team/` — headshots (referenced by `image` field in `team.json`)
+- `events/` — lab photos shown on the home page gallery
+
+Update `public/logo.png` and `public/favicon.png` with your lab logo.
+
+---
+
+## 📊 Google Sheets Integration (Optional)
+
+For easy non-technical updates, you can connect Google Sheets as a live data source:
+
+1. Create a Google Sheet with the columns matching the JSON structure
+2. Go to **File → Share → Publish to web** → choose the tab → select **CSV**
+3. Copy the generated URL
+4. Paste it into `src/config/sheetsConfig.js` for the corresponding data key
+
+The app will automatically fetch from Google Sheets when a URL is provided, and fall back to the local JSON file if not.
+
+---
+
+## 📍 Location Page
+
+Update the Google Maps embed URL in `src/pages/Location.jsx`:
+
+```jsx
+src="https://www.google.com/maps/embed?YOUR_EMBED_URL_HERE"
+```
+
+Get your embed URL from [Google Maps](https://maps.google.com) → Share → Embed a map → Copy HTML → extract the `src` URL.
+
+---
+
+## 🚢 Deployment
+
+### GitHub Pages
+
+1. Update `vite.config.js` → set `base` to your repo name (e.g., `'/your-repo/'`)
+2. Build: `npm run build`
+3. Deploy the `dist/` folder to GitHub Pages
+
+### GitLab CI/CD
+
+A `.gitlab-ci.yml.example` file is included. Rename it to `.gitlab-ci.yml` and it will automatically build and deploy to GitLab Pages on every push to `main`.
+
+---
+
+## 📁 Project Structure
+
+```
+├── public/
+│   ├── data/           ← JSON data files (edit these!)
+│   ├── assets/
+│   │   └── images/     ← Photos (team/, events/)
+│   ├── logo.png        ← Your lab logo
+│   └── favicon.png     ← Browser tab icon
+├── src/
+│   ├── components/     ← Header, Footer, Layout, BackToTop
+│   ├── pages/          ← One file per page
+│   ├── config/
+│   │   └── sheetsConfig.js  ← Google Sheets URLs
+│   └── utils/          ← Data fetching helpers
+└── index.html          ← Update title and meta tags here
+```
+
+---
+
+## 📄 License
+
+MIT License — feel free to use and adapt for your own lab.

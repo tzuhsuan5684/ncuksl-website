@@ -1,216 +1,204 @@
 {
   "professor": {
-    "name": "楊鎮華 教授",
-    "image": "assets/images/team/jhyang.jpg",
+    "name": "Prof. Jane Doe",
+    "image": "assets/images/team/placeholder.jpg",
     "titles": [
       {
         "icon": "fas fa-user-tie",
-        "text": "國立中央大學 資訊工程學系 講座教授"
+        "text": "Department of Computer Science and Engineering, Your University"
       },
       {
         "icon": "fas fa-user-tie",
-        "text": "前國立中央大學 研發長 兼 高教深耕執行長"
+        "text": "Former Vice President for Research, Your University"
       },
       {
         "icon": "fas fa-user-tie",
-        "text": "前教育部資訊及科技教育司司長"
-      },
-      {
-        "icon": "fas fa-user-tie",
-        "text": "前國科會資訊教育學門召集人"
+        "text": "Former Director, Ministry of Education (Example)"
       }
     ],
     "honors": [
       {
         "icon": "fas fa-award",
-        "text": "教育部 114年「師鐸獎」"
+        "text": "Outstanding Teaching Award, Ministry of Education (Example Year)"
       },
       {
         "icon": "fas fa-award",
-        "text": "教育部 第69屆「學術獎 」"
+        "text": "Academic Excellence Award (Example Year)"
       },
       {
         "icon": "fas fa-award",
-        "text": "國科會 傑出研究獎"
+        "text": "Outstanding Research Award, National Science and Technology Council"
       },
       {
         "icon": "fas fa-award",
-        "text": "資訊月 傑出資訊人才獎"
-      },
-      {
-        "icon": "fas fa-award",
-        "text": "中研院Future Earth Taipei 年度貢獻獎"
-      },
-      {
-        "icon": "fas fa-award",
-        "text": "中國電機工程學會會士"
+        "text": "Distinguished IT Professional Award"
       }
     ],
-    "email": "jhyang@csie.ncu.edu.tw",
-    "office": "工程五館 E5-A408",
-    "ext": "03-4227151-35308",
-    "website": "https://sites.google.com/view/Stephen-JH-Yang",
+    "email": "professor@example.edu",
+    "office": "Engineering Building, Room A408",
+    "ext": "00-0000-0000 ext. XXXXX",
+    "website": "https://example.com/professor",
     "img_position": "top"
   },
   "postdocs": [
     {
-      "name": "黃鈺晴(Anna)",
-      "image": "assets/images/team/黃鈺晴.jpg",
-      "email": "anna.yuqing@gmail.com",
-      "office": "工程五館 E5-B320",
-      "ext": "35356"
+      "name": "Postdoc A",
+      "image": "assets/images/team/placeholder.jpg",
+      "email": "postdoc.a@example.edu",
+      "office": "Engineering Building, Room B320",
+      "ext": "XXXXX"
     },
     {
-      "name": "潘雅玲",
+      "name": "Postdoc B",
       "image": "",
-      "email": "carrie@cc.ncu.edu.tw",
-      "office": "工程五館 E5-B320",
-      "ext": "35356"
+      "email": "postdoc.b@example.edu",
+      "office": "Engineering Building, Room B320",
+      "ext": "XXXXX"
     }
   ],
   "assistants": [
     {
-      "name": "李鴻怡(Joyce)",
-      "image": "assets/images/team/鴻怡.jpg",
-      "email": "leehy@ncu.edu.tw",
-      "office": "工程五館 E5-B320",
-      "ext": "35353"
+      "name": "Research Assistant A",
+      "image": "assets/images/team/placeholder.jpg",
+      "email": "assistant.a@example.edu",
+      "office": "Engineering Building, Room B320",
+      "ext": "XXXXX"
     },
     {
-      "name": "曾昱瑋",
-      "image": "assets/images/team/昱瑋.jpg",
-      "email": "tseng19831012@gmail.com",
-      "office": "工程五館 E5-B320",
-      "ext": "35353",
+      "name": "Research Assistant B",
+      "image": "assets/images/team/placeholder.jpg",
+      "email": "assistant.b@example.edu",
+      "office": "Engineering Building, Room B320",
+      "ext": "XXXXX",
       "img_position": "top"
     }
   ],
   "phd_students": [
     {
-      "name": "蔡惠淳",
-      "image": "assets/images/team/惠淳.jpg",
-      "email": "yvonne12629@gmail.com",
-      "office": "工程五館 E5-B321-1",
-      "ext": "35356"
+      "name": "PhD Student A",
+      "image": "assets/images/team/placeholder.jpg",
+      "email": "phd.a@example.edu",
+      "office": "Engineering Building, Room B321-1",
+      "ext": "XXXXX"
     },
     {
-      "name": "梁豪友",
-      "image": "assets/images/team/梁豪友.jpg",
-      "email": "s102598055@gmail.com",
-      "office": "工程五館 E5-B321-1",
-      "ext": "35356",
+      "name": "PhD Student B",
+      "image": "assets/images/team/placeholder.jpg",
+      "email": "phd.b@example.edu",
+      "office": "Engineering Building, Room B321-1",
+      "ext": "XXXXX",
       "img_position": "top"
     }
   ],
   "master_students": {
     "second_year": [
       {
-        "name": "劉品媛",
-        "image": "assets/images/team/品媛.jpg",
-        "email": "pinyuanliu9@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "335353"
+        "name": "Master Student A",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.a@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "游政叡",
-        "image": "assets/images/team/政叡.jpg",
-        "email": "r910529@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student B",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.b@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "王裕傑",
-        "image": "assets/images/team/裕傑.jpg",
-        "email": "jayyu1w@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student C",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.c@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "陳玟樺",
-        "image": "assets/images/team/玟樺.jpg",
-        "email": "nicole6328@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student D",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.d@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "郭曜誠",
-        "image": "assets/images/team/曜誠.jpg",
-        "email": "kuo901105aa@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student E",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.e@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "陳淳瑜",
-        "image": "assets/images/team/淳瑜.jpg",
-        "email": "monicachen0331@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student F",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.f@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "劉彥汝",
-        "image": "assets/images/team/彥汝.jpg",
-        "email": "a113527006@g.ncu.edu.tw",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student G",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.g@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "張詩曼",
-        "image": "assets/images/team/詩曼.jpg",
-        "email": "shihman2003@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student H",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.h@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       }
     ],
     "first_year": [
       {
-        "name": "鍾昀潔",
-        "image": "assets/images/team/鍾昀潔.jpg",
-        "email": "yuunjiee313@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student I",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.i@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "陳彥璋",
-        "image": "assets/images/team/陳彥璋.jpg",
-        "email": "yenchangchen.ncu@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student J",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.j@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "譚聲全",
-        "image": "assets/images/team/譚聲全.jpg",
-        "email": "sheng.c.tan@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353",
+        "name": "Master Student K",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.k@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX",
         "img_position": "bottom"
       },
       {
-        "name": "呂訢誠",
-        "image": "assets/images/team/訢誠.jpg",
-        "email": "xinchenglu10@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student L",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.l@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "黃子瑄",
-        "image": "assets/images/team/黃子瑄.jpg",
-        "email": "tzuhsuan5684@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student M",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.m@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "張愷恩",
-        "image": "assets/images/team/張愷恩.png",
-        "email": "ken.chang.cs@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student N",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.n@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       },
       {
-        "name": "黃致穎",
-        "image": "assets/images/team/黃致穎.jpg",
-        "email": "chihyinghuang23@gmail.com",
-        "office": "工程五館 E5-B321-1",
-        "ext": "35353"
+        "name": "Master Student O",
+        "image": "assets/images/team/placeholder.jpg",
+        "email": "master.o@example.edu",
+        "office": "Engineering Building, Room B321-1",
+        "ext": "XXXXX"
       }
     ],
     "zero_year": []
@@ -218,137 +206,137 @@
   "alumni": {
     "phd": [
       {
-        "name": "林建昌",
-        "company": "台灣應用材料股份有限公司",
-        "email": "cclin3123@gmail.com",
+        "name": "PhD Alumni A",
+        "company": "Example Tech Company",
+        "email": "alumni.a@example.com",
         "job_title": "Managing Director"
       },
       {
-        "name": "楊子奇",
-        "company": "陽明交通大學 教育研究所",
-        "email": "tcyang_@nycu.edu.tw",
-        "job_title": "副教授"
+        "name": "PhD Alumni B",
+        "company": "Example University, Graduate Institute of Education",
+        "email": "alumni.b@example.edu",
+        "job_title": "Associate Professor"
       },
       {
-        "name": "蔣旭政",
-        "company": "臺灣師範大學 大傳所",
-        "email": "owen.lu.academic@gmail.com",
-        "job_title": "教授"
+        "name": "PhD Alumni C",
+        "company": "Example University, Department of Communication",
+        "email": "alumni.c@example.edu",
+        "job_title": "Professor"
       },
       {
-        "name": "蘇育生",
-        "company": "中正大學 資工系",
-        "email": "owen.lu.academic@gmail.com",
-        "job_title": "副教授"
+        "name": "PhD Alumni D",
+        "company": "Example University, Department of Computer Science",
+        "email": "alumni.d@example.edu",
+        "job_title": "Associate Professor"
       },
       {
-        "name": "黃信嘉",
-        "company": "國立高雄科技大學 金融系",
-        "email": "sjhuang@nkust.edu.tw",
-        "job_title": "副教授"
+        "name": "PhD Alumni E",
+        "company": "Example University of Technology, Department of Finance",
+        "email": "alumni.e@example.edu",
+        "job_title": "Associate Professor"
       },
       {
-        "name": "呂欣澤",
-        "company": "政治大學",
-        "email": "owen.lu.academic@gmail.com",
-        "job_title": "助理教授"
+        "name": "PhD Alumni F",
+        "company": "Example University",
+        "email": "alumni.f@example.edu",
+        "job_title": "Assistant Professor"
       }
     ],
     "master": [
       {
-        "name": "王瑋",
-        "company": "台積電",
-        "email": "kaz749283@gmail.com"
+        "name": "Master Alumni A",
+        "company": "TSMC",
+        "email": ""
       },
       {
-        "name": "江昱賢",
-        "company": "台積電",
-        "email": "ab3223323@gmail.com"
+        "name": "Master Alumni B",
+        "company": "TSMC",
+        "email": ""
       },
       {
-        "name": "李信鋌",
+        "name": "Master Alumni C",
         "company": "IBM",
         "email": ""
       },
       {
-        "name": "林文涵",
-        "company": "台積電",
-        "email": "jerry491123@gmail.com"
-      },
-      {
-        "name": "林彤恩",
-        "company": "台積電",
+        "name": "Master Alumni D",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "林佳榆",
-        "company": "台積電",
-        "email": "Amylin9003@gmail.com"
+        "name": "Master Alumni E",
+        "company": "TSMC",
+        "email": ""
       },
       {
-        "name": "林季陽",
+        "name": "Master Alumni F",
+        "company": "TSMC",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni G",
         "company": "Amazon Web Services",
-        "email": "xuunnis123@gmail.com"
-      },
-      {
-        "name": "康景翔",
-        "company": "台積電",
         "email": ""
       },
       {
-        "name": "張介韋",
-        "company": "台積電",
-        "email": "jwz.willy@gmail.com"
-      },
-      {
-        "name": "張覺意",
-        "company": "台積電",
+        "name": "Master Alumni H",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "傅孟淳",
-        "company": "台積電",
+        "name": "Master Alumni I",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "游中愷",
-        "company": "台積電",
-        "email": "chungkaiyu12936@gmail.com"
-      },
-      {
-        "name": "廖健宏",
-        "company": "研華科技",
+        "name": "Master Alumni J",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "劉冠杰",
-        "company": "台積電",
-        "email": "cc5954772@gmail.com"
-      },
-      {
-        "name": "劉學逸",
-        "company": "台積電",
+        "name": "Master Alumni K",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "陳昱蓉",
-        "company": "台積電",
-        "email": "jczj16202326@gmail.com"
-      },
-      {
-        "name": "蔡之禮",
-        "company": "聯詠科技",
-        "email": "dan860202@gmail.com"
-      },
-      {
-        "name": "顏若軒",
-        "company": "群聯電子",
+        "name": "Master Alumni L",
+        "company": "TSMC",
         "email": ""
       },
       {
-        "name": "鄭凱元",
-        "company": "台積電",
-        "email": "pizzahot66@gmail.com"
+        "name": "Master Alumni M",
+        "company": "Advantech",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni N",
+        "company": "TSMC",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni O",
+        "company": "TSMC",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni P",
+        "company": "TSMC",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni Q",
+        "company": "Novatek Microelectronics",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni R",
+        "company": "Phison Electronics",
+        "email": ""
+      },
+      {
+        "name": "Master Alumni S",
+        "company": "TSMC",
+        "email": ""
       }
     ]
   }

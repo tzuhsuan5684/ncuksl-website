@@ -1,14 +1,14 @@
 [
     {
         "date": "2026-6-25",
-        "title": "APSCE TBICS Festival of Learning 2026",
-        "description": "Kumamoto, Japan",
-        "link": "https://eds.let.media.kyoto-u.ac.jp/TBICS2026/"
+        "title": "Example International Conference 2026",
+        "description": "City, Country",
+        "link": "https://example.com/conference2026"
     },
     {
         "date": "2025-11-13",
-        "title": "2025 AI 引領永續社會國際學術研討會暨政策實務論壇",
-        "description": "中央研究院 環境變遷研究大樓",
-        "link": "https://sites.google.com/view/icaiss-tw-2025/home-%E9%A6%96%E9%A0%81?authuser=0"
+        "title": "Example Workshop on AI and Sustainable Society",
+        "description": "Example Venue",
+        "link": "https://example.com/workshop2025"
     }
 ]
