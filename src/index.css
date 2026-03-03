@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        @apply font-sans text-primary-900 bg-white dark:bg-primary-950 dark:text-primary-50 transition-colors duration-300;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif tracking-normal text-primary-900 dark:text-primary-50 font-bold;
+    }
+}
+
+@layer components {
+    .container-custom {
+        @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+
+    .glass-panel {
+        @apply bg-white/95 dark:bg-primary-900/95 border border-gray-200 dark:border-primary-800;
+        /* Removed blur and shadow, increased opacity for cleaner look */
+    }
+
+    .glass-card {
+        @apply bg-white dark:bg-primary-900 border border-gray-200 dark:border-primary-800 transition-all duration-300;
+        /* Removed blur and shadow, pure solid or high opacity */
+    }
+
+    .btn-primary {
+        @apply px-6 py-2.5 text-white font-medium transition-all duration-300 rounded-md;
+        /* Gradient from Primary 600 (Blue) to Accent 600 (Teal) */
+        background-image: linear-gradient(to right, #486581, #0d9488);
+    }
+
+    .btn-primary:hover {
+        background-image: linear-gradient(to right, #334e68, #0f766e);
+    }
+
+    .section-padding {
+        @apply py-20 md:py-24;
+    }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-gray-50 dark:bg-primary-900;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-primary-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-primary-600;
+}
+
+/* Utilities */
+.text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #486581, #0d9488);
+}
+
+.dark .text-gradient {
+    background-image: linear-gradient(to right, #627d98, #2dd4bf);
+}
