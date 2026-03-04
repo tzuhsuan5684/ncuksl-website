@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { fetchSheetData } from '../utils/fetchData';
 import { SHEET_URLS, FALLBACK_URLS } from '../config/sheetsConfig';
-import { categoryColors, sortByPinned } from '../utils/categoryColors';
+import { categoryColors, sortByPinned, isPinned } from '../utils/categoryColors';
 
 export default function Home() {
     const [newsData, setNewsData] = useState([]);
@@ -132,7 +132,7 @@ export default function Home() {
                                                     </div>
                                                     <div className="grow border-l border-gray-100 dark:border-primary-800 pl-0 md:pl-6 pt-2 md:pt-0">
                                                         <h3 className="text-lg font-bold text-primary-900 dark:text-white mb-2 group-hover:text-primary-700 transition-colors font-serif">
-                                                            {item.pinned && <i className="fas fa-thumbtack text-accent-600 mr-2" title="置頂公告"></i>}
+                                                            {isPinned(item.pinned) && <i className="fas fa-thumbtack text-accent-600 mr-2" title="置頂公告"></i>}
                                                             {item.link ? (
                                                                 <a href={item.link} target="_blank" rel="noopener noreferrer">
                                                                     {item.title}

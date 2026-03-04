@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { fetchSheetData } from '../utils/fetchData';
 import { SHEET_URLS, FALLBACK_URLS } from '../config/sheetsConfig';
-import { categoryColors, sortByPinned } from '../utils/categoryColors';
+import { categoryColors, sortByPinned, isPinned } from '../utils/categoryColors';
 
 export default function News() {
     const [newsData, setNewsData] = useState([]);
@@ -47,7 +47,7 @@ export default function News() {
                                     </div>
                                     <div className="content grow">
                                         <h3 className="text-xl font-bold text-secondary-900 dark:text-white mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-                                            {item.pinned && (
+                                            {isPinned(item.pinned) && (
                                                 <i className="fas fa-thumbtack text-accent-600 mr-2" title="置頂公告"></i>
                                             )}
                                             {item.link ? (
