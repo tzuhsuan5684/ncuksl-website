@@ -10,7 +10,7 @@ export const categoryColors = {
  * 判斷 pinned 欄位是否為 true
  * 相容 JSON Boolean 及 Google Sheets CSV 字串（'true' / 'TRUE'）
  */
-const isPinned = (val) => val === true || val === 'true' || val === 'TRUE';
+export const isPinned = (val) => val === true || val === 'true' || val === 'TRUE';
 
 /**
  * 將資料依照 pinned 排序（置頂優先），不改變其餘順序
